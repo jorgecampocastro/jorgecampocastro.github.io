@@ -1,0 +1,155 @@
+body{
+    font-family:sans-serif;
+}
+header img{
+  width: 100%;
+}
+nav{
+  background-color:  #191528;
+  height: 12%;
+  padding:50px;
+}
+li{
+  font-family: monospace;
+  font-size:22px;
+  color: white;
+  text-align: center;
+}
+ul{
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+address, p, h1{
+  font-family: 'Muli', sans-serif;
+}
+h1{
+  font-size: 30px;
+  color:coral;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-top:80px;
+  margin-bottom: 0;
+  border-bottom-style: solid;
+  border-bottom-color: coral;
+  border-bottom-width: 2px;
+}
+iframe{
+  width:80%;
+  height:95%;
+}
+
+/*clases e identificadores*/
+.columnas_2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 50px 0;
+  height: 500px;;
+}
+.coral{
+  background-color: #fcd4bf;
+}
+#direccion{
+  padding-top: 28%;
+  padding-left:50%;
+}
+.columnas_2 p, .columnas_2 address{
+  font-size: 18px;
+  margin-left: 5%;
+  margin-right: 10%;
+  text-align:right;
+}
+.columnas_3{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5%;
+}
+.columnas_3 div{
+  width: 33%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.columnas_3 h4 {
+  font-size: 20px;
+  color:coral;
+  font-weight: 200;
+  text-align: center;
+  padding: 0px 20px;
+}
+.columnas_3 p {
+  font-size: 16px;
+  color:#3c3b3a;
+  text-align: center;
+  width: auto;
+}
+
+form{
+  width: 25%;
+  margin-left: 35%;
+  height: 450px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 3%;
+  margin-bottom: 70px;
+  border-style:dotted;
+  border-radius: 20px;
+  border-color:coral;
+}
+
+
+form div{
+  padding: 12px;
+  margin: auto 10%;
+}
+label {
+  font-size: 14px;
+  font-family: sans-serif
+}
+
+textarea{
+  height: 150px;
+  width: 300px;
+  margin-left: 4px;
+}
+button {
+  margin-top: 5%;
+  margin-left:30%;
+  height: 60px;
+  width: 150px;
+  border-radius: 10px;
+  font-size:14px;
+}
+
+iframe {
+  margin-top: 5px;
+}
+.iconos{
+  padding-left: 40%;
+  padding-top:2%;
+  padding-bottom:2%;
+  margin-top:5%;
+  background-color: #fcd4bf;
+}
+
+i{
+  margin:20px;
+  font-size: 60px;
+}
+
+
+i:hover{
+  transform: scale(1.2, 1.2);
+  color: rgb(64, 170, 209);
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 2px;
+  border-top-style: solid;
+  border-color: #999999;
+}
